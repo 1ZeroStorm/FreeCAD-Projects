@@ -1,0 +1,3 @@
+Variables.angle-Index*10>560? Variables.radius:(Variables.angle-Index * 10 > 380? cos(Variables.angle - index * 10 - 200) * Variables.radius:(Variables.angle-Index * 10 > 180? -Variables.angle: cos(Variables.angle - Index * 10)*Variables.radius))
+
+Variables.angle - Index * 10 > 560? Variables.angle-Index * 10-560-200:(Variables.angle-Index * 10>380? sin(Variables.angle - Index * 10 - 200) * Variables.radius - 200: (Variables.angle-Index * 10>180? - (Variables.angle-Index*10 -180): sin(Variables.angle - Index * 10)*Variables.radius))
